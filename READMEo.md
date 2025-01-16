@@ -3,7 +3,7 @@
 # Phone Simulator
 
 ## Overview
-The Phone Simulator is a C application that simulates basic phone functionalities using various data structures such as hashtables, heaps, graphs, linked lists, stacks, queues, and trees. This project serves as an educational tool to understand data structures and their applications in a real-world scenario.
+The Phone Simulator is a C application that simulates basic phone functionalities using various data structures such as hashtables, heaps, graphs, linked lists, stacks, queues, and trees
 
 ## Project Structure
 ```
@@ -44,21 +44,13 @@ phone-simulator
    ```
    cd phone-simulator
    ```
-3. Build the project using the Makefile:
-   ```
-   make
-   ```
 
 ## Usage
 After building the project, run the executable to start the phone simulator:
 ```
-./phone-simulator
+gcc main.c
+./phone-simulator.out
 ```
-
-## Features
-- Make calls
-- Send messages
-- Manage contacts using various data structures
 
 ## Contributing
 Feel free to submit issues or pull requests for improvements and enhancements.
